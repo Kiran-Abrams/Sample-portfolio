@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <div class="menu-toggle">&#9776;</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <img src="./images/PHOTO.jpg" alt="Profile Picture">
+    <div class="hero-text">
+      <h1 id="hero-title">Hi, I'm [Your Name]</h1>
+      <p id="typing"></p>
+      <a href="resume.pdf" class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>"Hi, I’m Kiran Abraham, a passionate web developer and programmer. I specialize in creating interactive and user-friendly web applications with a focus on clean code and modern design.
+       I enjoy solving complex problems and turning ideas into functional digital experiences.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Python</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <img src="./images/gameover.png" alt="Project 1">
+        <div class="card-body">
+          <h3>Project One</h3>
+          <p> A short game made up of javscript to recollect the old memory of snake & fruit game</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/netflixclone.png" alt="Project 2">
+        <div class="card-body">
+          <h3>Project Two</h3>
+          <p>My first professional level coding carrier start at the making of clone of netflix.
+            It is an working frontend based netflix clone.
+          </p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/fitness.png" alt="Project 2">
+        <div class="card-body">
+          <h3>Project Two</h3>
+          <p>This is my fitness guidness website done on the bases of newly design and functions</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MyPortfolio. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">LinkedIn</a> |
+      <a href="#">GitHub</a> |
+      <a href="mailto:youremail@example.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
